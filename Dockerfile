@@ -1,5 +1,5 @@
 # INSTALL UBUNTU
-FROM node:8
+FROM node:boron
 
 #INSTALL LIBAIO1 & UNZIP (NEEDED FOR STRONG-ORACLE)
 RUN apt-get update \
